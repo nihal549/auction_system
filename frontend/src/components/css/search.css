@@ -1,0 +1,31 @@
+/* Styles for the container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the input */
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the product container */
+  .pp__container {
+   display: flex;
+   flex-direction: row;
+   
+  }
+  .pp__container div {
+   margin: 10px;
+   }
+  /* Style for the 'No search results' message */
+  .no-results {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+  }
+  

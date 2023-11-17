@@ -1,0 +1,14 @@
+/* CSS Styling */
+.p-table {
+    margin-top:10px ;
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.trow{
+    width :450px;
+    font-size: 18px;
+    padding :10px;
+    border:1px solid white ;
+}

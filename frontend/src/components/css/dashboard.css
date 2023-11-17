@@ -1,0 +1,33 @@
+/* CSS Styling */
+.details {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+  }
+  
+  .details td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+  }
+  
+  /* Row colors */
+  .details tr:nth-child(even) {
+    background-color: #1a1a1a; /* Even rows */
+  }
+  
+  .details tr:nth-child(odd) {
+    background-color: #222; /* Odd rows */
+  }
+  
+  /* Heading row */
+  .details tr:first-child {
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  /* Text color for all rows */
+  .details td {
+    color: #fff; /* Text color for all cells */
+  }
+  
