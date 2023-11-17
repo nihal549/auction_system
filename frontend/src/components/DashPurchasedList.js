@@ -79,13 +79,13 @@ const clickHandler=()=>{
           </th>
           <tr>
             {ads.slice(firstAdIndex, lastAdIndex).map((ad) => (
-              <tr key={ad._id}>
+                <tr key={ad._id}>
                 <td className='trow'>{ad.productName}</td>
                 <td className='trow'>${ad.currentPrice.$numberDecimal}</td>
                 <td className='trow'>{getGMTTime(ad.updatedAt)}</td>
                 <td className='trow'>      
                   <StripeCheckout
-                      stripeKey='pk_test_51OCMaVSDppP0N6lccPnMXcdZJk8PaEji6MTP47021DlzgSivJ8K22pjg4FQTAFzzHABOMSheveldJ1Rw8lFsMCym005bmVgeaP'
+                      stripeKey=''
                       token={()=>makePayment(ad.currentPrice.$numberDecimal)}
                       name='Buy product'
                       amount={ad.currentPrice.$numberDecimal*100}
