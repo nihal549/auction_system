@@ -43,7 +43,7 @@ app.use('/auction', require('./routes/auction'));
 app.use('/upload', require('./routes/uploads'));
 
 //payments
-const stripe = require('stripe')('sk_test_51OCMaVSDppP0N6lcnnB4xo9E7aLE9DVEQdQxT4qQp4XuOg2kQRZevHhQdYRZ0wUyr7Rp0brxCRURE7jc2hrYwxDR00z9VusPhN');
+const stripe = require('stripe')('');
 const { v4: uuidv4 } = require('uuid');
 app.post('/payments', async (req, res) => {
  const {amount, token} = req.body
